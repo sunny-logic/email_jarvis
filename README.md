@@ -9,13 +9,13 @@ Although, I have OpenVPN installed and running on my Raspberry Pi 2 and used in 
 
 Below are some of the command you can send via a trusted Email (Gmail) account and it will perform the required action and acknowledge you back via Email.
 
-    ipaddress - Return your current public IP address
-    _shutdown - Shutdown your Raspberry Pi
-    _reboot - Restart your Raspberry Pi
-    force_ddclient - Force ddclient to update your preregistered DNS account. 
-    restart_ddclient - Restart ddclient
-    restart_openvpn - Restart Open VPN
-    systime - Systime of your Raspberry Pi (safe to use for initial setup and subsequent testing)
+ipaddress			-	Return your current public IP address
+_shutdown			-	Shutdown your Raspberry Pi
+_reboot				 -	Restart your Raspberry Pi
+force_ddclient		-	Force ddclient to update your preregistered DNS account. 
+restart_ddclient	-	Restart ddclient
+restart_openvpn		-	Restart Open VPN
+systime				-	Systime of your Raspberry Pi (safe to use for initial setup and subsequent testing)
 
 Primariry, I had to install SSMTP &  Fetchmail and do some configuration changes.
 
