@@ -15,8 +15,7 @@ Primariry, I had to install SSMTP &  Fetchmail and do some configuration changes
 
 Below are some of the command you can send via a trusted Email (Gmail) account and it will perform the required action and acknowledge you back via Email.
 
-
-
+################################################################################################
 ipaddress - Return your current public IP address
 
 _shutdown - Shutdown your Raspberry Pi
@@ -38,7 +37,7 @@ stop_samba - Stop Samba
 start_samba - Start Samba
 
 systime - Systime of your Raspberry Pi (safe to use for initial setup and subsequent testing)
-
+################################################################################################
 
 I have created this during my spare leisure time as a hobby to (re)indulge myself into the wonderful world of programming.
 There may be issues/improvements needed for this project which I will try to address as and when possible.
