@@ -25,12 +25,19 @@ _reboot - Restart your Raspberry Pi
 
 force_ddclient - Force ddclient to update your preregistered DNS account.
 
-restart_ddclient - Restart ddclient
+stop_ddclient - Stop ddclient
 
-restart_openvpn - Restart Open VPN
+start_ddclient - Start ddclient
+
+stop_openvpn - Stop Open VPN
+
+start_openvpn - Start Open VPN
+
+stop_samba - Stop Samba
+
+start_samba - Start Samba
 
 systime - Systime of your Raspberry Pi (safe to use for initial setup and subsequent testing)
-
 
 
 I have created this during my spare leisure time as a hobby to (re)indulge myself into the wonderful world of programming.
