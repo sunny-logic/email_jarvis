@@ -9,9 +9,10 @@ This program helps you to get around this problem and run predefined commands an
 You can use this program to get around the process of installing VPN and the hassles around it like port-forwarding, Static IP, Etc.
 Although, I have OpenVPN installed and running on my Raspberry Pi 2 and used in this project to restart using OpenVPN using email.
 
+This can also be used to start certain programs & services on-demand when you need them and 
+then shutdown the programs & services once the work is complete. This helps in security and save computing power !
 
 Primariry, I had to install SSMTP &  Fetchmail and do some configuration changes.
-
 
 Below are some of the command you can send via a trusted Email (Gmail) account and it will perform the required action and acknowledge you back via Email.
 
