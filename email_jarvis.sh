@@ -40,14 +40,14 @@
 #########################################################################################################################
 
 # Define the trusted email from which you will send and receive the email
-trusted="rapizero@gmail.com"
+trusted="XXXXXXXXXX@gmail.com"
 verified=0
 
 # Define the log file paths
-tmpFile="/home/osmc/email_jarvis/logs/runlog.txt"
-cmdoutput="/home/osmc/email_jarvis/logs/mailbody.txt"
-readmail="/home/osmc/email_jarvis/logs/readmail.txt"
-tmpMail="/home/osmc/email_jarvis/logs/mailtxt.txt"
+tmpFile="$HOME/email_jarvis/logs/runlog.txt"
+cmdoutput="$HOME/email_jarvis/logs/mailbody.txt"
+readmail="$HOME/email_jarvis/logs/readmail.txt"
+tmpMail="$HOME/email_jarvis/logs/mailtxt.txt"
 
 # Initialize the logs files with timestamp
 echo "##############`date`##############" > $tmpFile
