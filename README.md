@@ -57,11 +57,17 @@ sudo apt-get install cron
 mkdir $HOME/email_jarvis/
 mkdir $HOME/email_jarvis/logs
 
-# Use the files from the repository for below steps
-# Now edit and place .fetchmailrc in $HOME
-# Place fetchmail.sh and email_jarvis.sh in $HOME/email_jarvis/
-# Edit Crontab using crontab -l and append the content of crontab
+#Use the files from the repository for below steps
+#Now edit .fetchmailrc to add your Gmail username and password and place the edited .fetchmailrc in $HOME
+#Place fetchmail.sh and email_jarvis.sh in $HOME/email_jarvis/
+#Edit Crontab using crontab -l and append the content of crontab
 
+#In the email_jarvis.sh script, define your trusted email (gmail) too send/receive the email
+trusted="XXXXXXXXXX@gmail.com"
+
+#Login to your Gmail account, Go to Settings and create a new label called "RPi_Reply".
+#Now add a filter to Match: "subject:RPi_Reply" and add action as : "Skip the Inbox (Archive it)", "Apply the label - RPi_Reply"
+#This will ensure that RaspberryPi's emails are labelled and also the replies are moved to RPi_Reply label.
 ################################################################################################
 
 
