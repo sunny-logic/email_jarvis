@@ -1,0 +1,5 @@
+# Append these lines in your crontab with "crontab -e"
+# If the command doesn't work, then you may need to install crontab 
+# I had to nullify mailto so that you don't get spam mail from cron run execution although you would get desired reply from the script
+MAILTO=""
+0,5,8,10,12,15,18,20,22,25,28,30,33,35,37,40,43,45,48,50,53,55 * * * * /home/osmc/email_jarvis/fetchmail.sh > /dev/null 2>&1
