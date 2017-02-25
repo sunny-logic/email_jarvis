@@ -45,3 +45,26 @@ There may be issues/improvements needed for this project which I will try to add
 
 
 Appreciations/Suggestions/ideas are welcome.
+
+
+################################################################################################
+Installation steps
+################################################################################################
+sudo apt-get install mailutils ssmtp
+sudo apt-get install fetchmail
+sudo apt-get install cron
+
+mkdir $HOME/email_jarvis/
+mkdir $HOME/email_jarvis/logs
+
+# Use the files from the repository for below steps
+# Now edit and place .fetchmailrc in $HOME
+# Place fetchmail.sh and email_jarvis.sh in $HOME/email_jarvis/
+# Edit Crontab using crontab -l and append the content of crontab
+
+################################################################################################
+
+
+
+
+
